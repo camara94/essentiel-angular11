@@ -25,3 +25,6 @@ Vous allez également voir le **routage**, la **navigation**, les **services**, 
 A l’issue de cette **formation Angular11** , vous aurez maitriser les fondamentaux de base et essentiels pour la création de d’application web sous Angular 11. Vous aurez aussi acquis les reflexes et les bonnes pratiques a adopter dans vos projets, ce qui vous permettra par la suite de monter en compétence et en performance dans votre carrière professionnelle.
 ## Architecture Angular 11
 ![arch](images/archi.png)
+## Les axes
+![axes 1](images/axes.png)
+![axes 2](images/axes2.png)
