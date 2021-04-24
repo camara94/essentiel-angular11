@@ -23,4 +23,5 @@ Après, vous allez voir et comprendre les Templates, les directives, le binding 
 Vous allez également voir le **routage**, la **navigation**, les **services**, **HttpClient et RXJS en Angular**. Vous allez comprendre c'est quoi le **routage et navigation sous Angular**,les **paramètres et la sécurité** dans le **routage sous Angular 11**. Vous allez aussi voir c'est quoi un **service** en Angular et le **HttpClientet RXJS**.
 
 A l’issue de cette **formation Angular11** , vous aurez maitriser les fondamentaux de base et essentiels pour la création de d’application web sous Angular 11. Vous aurez aussi acquis les reflexes et les bonnes pratiques a adopter dans vos projets, ce qui vous permettra par la suite de monter en compétence et en performance dans votre carrière professionnelle.
-
+## Architecture Angular 11
+![arch](images/archi.png)
