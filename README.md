@@ -39,3 +39,7 @@ A l’issue de cette **formation Angular11** , vous aurez maitriser les fondamen
 ![arc](images/arcfront3.png)
 ![arc](images/arcfront4.png)
 
+## Environnement de travail
+![env de job](images/envt.png)
+## Comment créer une Application Angular
+![app ngular](images/app.png)
