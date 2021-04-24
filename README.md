@@ -28,3 +28,9 @@ A l’issue de cette **formation Angular11** , vous aurez maitriser les fondamen
 ## Les axes
 ![axes 1](images/axes.png)
 ![axes 2](images/axes2.png)
+## C'est l'Angular
+![angular](images/angular2.png)
+![angular](images/angular3.png)
+## Les avantage d'Angular
+![avantage](images/avantageangular.png)
+
