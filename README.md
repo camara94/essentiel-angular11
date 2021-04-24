@@ -33,4 +33,9 @@ A l’issue de cette **formation Angular11** , vous aurez maitriser les fondamen
 ![angular](images/angular3.png)
 ## Les avantage d'Angular
 ![avantage](images/avantageangular.png)
+## Les Architectures Front-End et Back-End
+![arc](images/arcfront.png)
+![front 2](images/arcfront2.png)
+![arc](images/arcfront3.png)
+![arc](images/arcfront4.png)
 
