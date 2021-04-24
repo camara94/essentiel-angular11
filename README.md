@@ -43,3 +43,22 @@ A l’issue de cette **formation Angular11** , vous aurez maitriser les fondamen
 ![env de job](images/envt.png)
 ## Comment créer une Application Angular
 ![app ngular](images/app.png)
+## L'outil Webpack
+![webpack](images/webpack.png)
+### Just In Time Compilation(JIT)
+![jit](images/jitc.png)
+## Head Of Time(AOT)
+![aotc](images/aotc.png)
+## Le TypeScript 
+![intro](images/tsc.png)
+### Introduction TypeScript
+![tsc intro](images/introtsc.png)
+### Avantages du TypeScript
+![tsc avantage](images/avantagetsc.png)
+### Utilisateion du TypeScript
+![use cas](images/utilisationtsc.png)
+### La transpilation
+![transpilationtsc](images/transpilation.png)
+### Les version JavaScript
+![version](images/versionjs.png)
+
