@@ -12,9 +12,13 @@ export class ListLivresComponent implements OnInit {
   livres: Livre[] = LIVRES;
   affiche: boolean = true;
   size: number = 80;
+  listCategories: string[] = ['Big data', 'Database', 'Front-End', 'Back-End'];
+  categorieId: string = 'all';
+  livresTemp: Livre[] = [];
   constructor() { }
 
   ngOnInit(): void {
+    this.livresTemp = this.livres;
   }
 
   get getDescription(): string {
@@ -24,6 +28,11 @@ export class ListLivresComponent implements OnInit {
   affichage(): void {
     this.affiche = !this.affiche;
     console.log(this.affiche);
+  }
+
+  changeChangeCategories(){
+    console.log(this.categorieId)
+    this.categorieId ==='all'? this.livresTemp=this.livres:this.livres=this.livresTemp.filter ( l => l.Category === this.categorieId)
   }
 
 }

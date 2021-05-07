@@ -5,6 +5,14 @@
                 <div class="row">
                     <button class="col-2 btn btn-primary" (click)="affichage()">Affichage</button>
                     {{titre}}
+                    <div class="col-3">
+                        <select class="btn btn-primary" [(ngModel)]="categorieId" (change)="changeChangeCategories()" >
+                            <option value="all">Catégories</option>
+                            <option *ngFor="let cat of listCategories" [value]="cat">
+                                {{cat}}
+                            </option>
+                        </select>
+                    </div>
                 </div>
             </div>
             <div class="card-body" *ngIf="affiche">
