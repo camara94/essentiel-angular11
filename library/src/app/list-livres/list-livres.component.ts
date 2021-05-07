@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Livre } from 'src/shared/livre';
+import { LIVRES } from 'src/shared/livres';
 
 @Component({
   selector: 'app-list-livres',
@@ -7,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListLivresComponent implements OnInit {
   titre: string = 'La liste des livres';
+  livres: Livre[] = LIVRES;
   constructor() { }
 
   ngOnInit(): void {
