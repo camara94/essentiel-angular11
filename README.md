@@ -73,3 +73,8 @@ Les modules nous permettent en angular de gérer les gros projets
 ![mod](images/module1.png)
 ![mode](images/module2.png)
 
+## Les SPA 
+![spa](images/spa.png)
+## Avantage des SPA
+![spaa](images/avantagespa.png)
+
