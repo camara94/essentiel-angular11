@@ -30,8 +30,8 @@
                         </td>
                         <td> {{livre.Name}} </td>
                         <td> {{livre.ShortDescription}} </td>
-                        <td> {{livre.Category}} </td>
-                        <td> {{livre.Price}} </td>
+                        <td> {{livre.Category | uppercase | deletespace}} </td>
+                        <td> {{livre.Price | currency: 'DNT'}} </td>
                     </tr>
                 </table>
             </div>
