@@ -63,3 +63,13 @@ A l’issue de cette **formation Angular11** , vous aurez maitriser les fondamen
 ![version](images/versionjs.png)
 ### Notre premier programme TypeScript
 ![tsc first](images/premierprogtsc.png)
+### Declaration de variable en TypeScript
+![variable en tsc](images/variabletsc.png)
+### Porté de varaibales en TypeScript
+![porte tsc](images/portetsc.png)
+
+## Les Modules en Angular
+Les modules nous permettent en angular de gérer les gros projets
+![mod](images/module1.png)
+![mode](images/module2.png)
+
