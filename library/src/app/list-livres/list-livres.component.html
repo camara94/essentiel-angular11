@@ -1,16 +1,25 @@
 <div class="container-fluid">
     <div class="row">
-        <div class="card" *ngIf="livres.length>0">
-            <div class="card-header">{{titre}}</div>
-            <div class="card-body">
-                <table class="table table-bordered  table-striped">
+        <div class="card">
+            <div class="col-10 card-header">
+                <div class="row">
+                    <button class="col-2 btn btn-primary" (click)="affichage()">Affichage</button>
+                    {{titre}}
+                </div>
+            </div>
+            <div class="card-body" *ngIf="affiche">
+                <table class="table table-bordered table-striped">
                     <tr>
+                        <th>Image</th>
                         <th>Nom</th>
                         <th>Description</th>
                         <th>Catégorie</th>
                         <th>Prix</th>
                     </tr>
-                    <tr *ngFor="let livre of livres, let i=index">
+                    <tr *ngFor="let livre of livres, let i=index" [ngClass]="{'text-primary':livre.Name=='Angular'}">
+                        <td>
+                            <img [src]="livre.ImageUrl" [width]="size" >
+                        </td>
                         <td> {{livre.Name}} </td>
                         <td> {{livre.ShortDescription}} </td>
                         <td> {{livre.Category}} </td>

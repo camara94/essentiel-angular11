@@ -10,6 +10,8 @@ import { LIVRES } from 'src/shared/livres';
 export class ListLivresComponent implements OnInit {
   titre: string = 'La liste des livres';
   livres: Livre[] = LIVRES;
+  affiche: boolean = true;
+  size: number = 80;
   constructor() { }
 
   ngOnInit(): void {
@@ -17,6 +19,11 @@ export class ListLivresComponent implements OnInit {
 
   get getDescription(): string {
     return 'La description des livres.';
+  }
+
+  affichage(): void {
+    this.affiche = !this.affiche;
+    console.log(this.affiche);
   }
 
 }
